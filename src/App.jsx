@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Button } from 'antd'
 import './App.css'
 import DeliveryCost from './components/DeliveryCost'
+import PossibleRoutes from './components/PossibleRoutes'
 
 function App() {
  
@@ -15,7 +16,7 @@ function App() {
       <Button onClick={() => setToggle("cheapest_route")}>Cheapest Route</Button>
     
     {
-    <DeliveryCost /> 
+     <PossibleRoutes /> 
 
     }
       
