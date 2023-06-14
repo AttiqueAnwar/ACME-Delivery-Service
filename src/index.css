@@ -6,9 +6,15 @@
 }
 
 .custom-form form {
-  min-width: 500px;
+  
   max-width: unset;
 }
+
+@media screen and (min-width: 768px) {
+  .custom-form form {
+    min-width: 500px;
+  }
+} 
 
 .custom-form form .ant-form-item:last-child .ant-form-item-row{
   width: 100%;
